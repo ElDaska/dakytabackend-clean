@@ -38,7 +38,7 @@ const paymentRoutes = require('./routes/payment.routes');
 // 🔹 Utilisation des routes
 app.use('/api/auth', authRoutes);         // Authentification
 app.use('/api/ia', iaRoutes);             // Génération IA
-app.use('/api/payment', paymentRoutes);   // Paiement (PayDunya)
+app.use('/api/payments', paymentRoutes);   // Paiement (PayDunya)
 
 // 🔹 Route de test
 app.get('/', (req, res) => {
